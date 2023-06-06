@@ -35,7 +35,7 @@ public class SmsEmailScheduler
 			logger.info("start of SmsEmailScheduler ");
 			smsEmailList = smsService.getSmsEmail();		
 			
-			logger.debug("end of SmsEmailScheduler: "+smsEmailList.size());
+			logger.debug("end of SmsEmailScheduler:: "+smsEmailList.size());
 		}
 		catch(Exception ex)
 		{
